@@ -5,8 +5,9 @@ package tools;
  * 3.提供静态成员变量.类型是当前类类型
  * 4.在方法中提供if判断，如果实例为null则new
  */
+//
 public class InputTools {
-	
+
 	private static InputTools instance;
 	private InputTools() {}
 	public static InputTools getInstance() {
